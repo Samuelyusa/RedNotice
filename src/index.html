@@ -8,7 +8,7 @@
 		<meta content="" name="description" />
 
 		<!-- Favicon -->
-		<link href="template/img/favicon.ico" rel="icon" />
+		<!-- <link href="template/img/favicon.ico" rel="icon" /> -->
 
 		<!-- Google Web Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,27 +29,23 @@
 		/>
 
 		<!-- Libraries Stylesheet -->
-		<link
+		<!-- <link
 			href="style/template/lib/owlcarousel/assets/owl.carousel.min.css"
 			rel="stylesheet"
-		/>
-		<link
-			href="style/template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-			rel="stylesheet"
-		/>
+		/> -->
 
 		<!--Owl Carousel 2-->
-		<link rel="stylesheet" href="style/template/css/owl.carousel.min.css" />
-		<link
+		<!-- <link rel="stylesheet" href="style/template/css/owl.carousel.min.css" /> -->
+		<!-- <link
 			rel="stylesheet"
 			href="style/template/css/owl.theme.default.min.css"
-		/>
+		/> -->
 
 		<!-- Customized Bootstrap Stylesheet -->
-		<link href="style/template/css/bootstrap.min.css" rel="stylesheet" />
+		<!-- <link href="style/template/css/bootstrap.min.css" rel="stylesheet" /> -->
 
 		<!-- Template Stylesheet -->
-		<link href="style/template/css/style.css" rel="stylesheet" />
+		<!-- <link href="style/template/css/style.css" rel="stylesheet" /> -->
 	</head>
 
 	<body>
@@ -119,7 +115,7 @@
 							>
 								<img
 									class="rounded-circle me-lg-2"
-									src="style/template/img/user.jpg"
+									src=""
 									alt=""
 									style="width: 40px; height: 40px"
 								/>
@@ -147,7 +143,7 @@
 							<div
 								id="carouselExampleCaptions"
 								class="carousel slide"
-								data-bs-ride="false"
+								data-bs-ride="carousel"
 							>
 								<div class="carousel-indicators">
 									<button
@@ -172,13 +168,16 @@
 									></button>
 								</div>
 								<!--Image Slide-->
-								<div class="carousel-inner rounded">
+								<div
+									class="carousel-inner rounded"
+									id="Main-Slide"
+								>
 									<div
 										class="carousel-item active"
 										data-bs-interval="2000"
 									>
 										<img
-											src="style/template/img/Slide_1.jpeg"
+											id="Slide_1"
 											class="d-block w-100"
 											alt="..."
 										/>
@@ -197,7 +196,7 @@
 										data-bs-interval="2000"
 									>
 										<img
-											src="style/template/img/Slide_2.jpeg"
+											id="Slide_2"
 											class="d-block w-100"
 											alt="..."
 										/>
@@ -216,7 +215,7 @@
 										data-bs-interval="2000"
 									>
 										<img
-											src="style/template/img/Slide_3.jpeg"
+											id="Slide_3"
 											class="d-block w-100"
 											alt="..."
 										/>
@@ -302,56 +301,53 @@
 						<section id="demos">
 							<div class="row">
 								<div class="large-12 columns">
-									<div
-										id="listMovies"
-										class="owl-carousel owl-theme"
-									>
+									<div id="listMovies">
 										<!-- <div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_1.jpeg"
+												id="poster_1"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_2.jpg"
+												id="poster_2"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_3.jpg"
+												id="poster_3"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_4.jpg"
+												id="poster_4"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_5.jpg"
+												id="poster_5"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_6.jpg"
+												id="poster_6"
 												alt=""
 											/>
 										</div>
 										<div class="item">
 											<img
 												class="w-100"
-												src="template/img/poster_7.jpg"
+												id="poster_7"
 												alt=""
 											/>
 										</div> -->
@@ -399,21 +395,21 @@
 
 		<!-- JavaScript Libraries -->
 		<!--Owl Carousel Slide Menu Js-->
-		<script src="style/template//js/jquery.min.js"></script>
-		<script src="style/template/js/owl.carousel.js"></script>
+		<!-- <script src="style/template//js/jquery.min.js"></script> -->
+		<!-- <script src="style/template/js/owl.carousel.js"></script> -->
 
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="style/template/lib/chart/chart.min.js"></script>
-		<script src="style/template/lib/easing/easing.min.js"></script>
-		<script src="style/template/lib/waypoints/waypoints.min.js"></script>
-		<script src="style/template/lib/owlcarousel/owl.carousel.min.js"></script>
-		<script src="style/template/lib/tempusdominus/js/moment.min.js"></script>
-		<script src="style/template/lib/tempusdominus/js/moment-timezone.min.js"></script>
-		<script src="style/template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+		<!-- <script src="style/template/lib/chart/chart.min.js"></script> -->
+		<!-- <script src="style/template/lib/easing/easing.min.js"></script> -->
+		<!-- <script src="style/template/lib/waypoints/waypoints.min.js"></script> -->
+		<!-- <script src="style/template/lib/owlcarousel/owl.carousel.min.js"></script> -->
+		<!-- <script src="style/template/lib/tempusdominus/js/moment.min.js"></script> -->
+		<!-- <script src="style/template/lib/tempusdominus/js/moment-timezone.min.js"></script> -->
+		<!-- <script src="style/template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script> -->
 
 		<!-- Template Javascript -->
-		<script src="style/template/js/main2.js"></script>
+		<!-- <script src="style/template/js/main2.js"></script> -->
 		<!-- <script src="app.js" type="module"></script> -->
 	</body>
 </html>

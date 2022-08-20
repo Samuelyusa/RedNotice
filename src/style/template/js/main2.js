@@ -32,22 +32,6 @@
         return false;
     });
 
-
-    // Progress Bar
-    $('.pg-bar').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
-
-
-    // Calender
-    $('#calender').datetimepicker({
-        inline: true,
-        format: 'L'
-    });
-
-
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -59,25 +43,51 @@
     });
 
     //Owl Carousel Trending //
-    $(document).ready(function() {
-                var owl = $('.owl-carousel');
-                owl.owlCarousel({
-                margin: 10,
-                nav: true,
-                loop: true,
-                responsive: {
-                    0: {
-                    items: 1
-                    },
-                    600: {
-                    items: 3
-                    },
-                    1000: {
-                    items: 5
-                    }
-                }
-                })
-            })
+    // $(document).ready(function() {
+    //             var owl = $('.owl-carousel');
+    //             owl.owlCarousel({
+    //             margin: 10,
+    //             nav: true,
+    //             loop: true,
+    //             responsive: {
+    //                 0: {
+    //                 items: 1
+    //                 },
+    //                 600: {
+    //                 items: 3
+    //                 },
+    //                 1000: {
+    //                 items: 5
+    //                 }
+    //             }
+    //             })
+    // })
+
+    // const $owl = $('.owl-carousel');
+    // $owl.owlCarousel({
+    //     margin: 10,
+    //     nav: true,
+    //     loop: false,
+    //     rewind: true,
+    //     autoplay: true,
+    //     autoplayTimeout: 2000,
+    //     autoplayHoverPause: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1
+    //         },
+    //         600: {
+    //             items: 5
+    //         },
+    //         1000: {
+    //             items: 5
+    //         }
+    //     }
+    // });
+    // $owl.trigger('refresh.owl.carousel');
+
+    // $owl.trigger('refreshed.owl.carousel');
+    // $('#listMovies').trigger('refresh.owl.carousel');
 
 })(jQuery);
 
