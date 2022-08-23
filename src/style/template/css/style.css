@@ -291,8 +291,10 @@
 /*** Carousel Main Slide Image set Size ***/
 
 .carousel-item > .w-100 {
-    width: 100% !important;
-    height: 55vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 100% !important;
+    height: auto;
 }
 
 .genres {

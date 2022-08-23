@@ -34,9 +34,9 @@ import poster_6 from './style/template/img/poster_6.jpg';
 import poster_7 from './style/template/img/poster_7.jpg'; 
 
 
-document.querySelector('#Slide_1').src = slide_1;
-document.querySelector('#Slide_2').src = slide_2;
-document.querySelector('#Slide_3').src = slide_3;
+// document.querySelector('#Slide_1').src = slide_1;
+// document.querySelector('#Slide_2').src = slide_2;
+// document.querySelector('#Slide_3').src = slide_3;
 
 // document.querySelector('#poster_1').src = poster_1;
 // document.querySelector('#poster_2').src = poster_2;
