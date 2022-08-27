@@ -299,7 +299,7 @@
 
 .genres {
     width: 100%;
-    height: 16.5vh;
+    height: 18.5vh;
 }
 
 .item > .w-100 {
@@ -307,6 +307,10 @@
     height: 300px;
 }
 
+.trending-card {
+    width: 100%;
+    height: 20vh;
+}
 /* .item, .owl-item {
     width: 210px !important;
     margin: 10px 10px;
