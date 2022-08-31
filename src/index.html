@@ -16,16 +16,6 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
 			rel="stylesheet"
 		/>
-
-		<!-- Icon Font Stylesheet -->
-		<link
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-			rel="stylesheet"
-		/>
 	</head>
 
 	<body>
@@ -57,28 +47,6 @@
 						<a href="index.html" class="nav-item nav-link"
 							><i class="bi bi-film"></i> Home</a
 						>
-						<div class="nav-item dropdown">
-							<a
-								href="#"
-								class="nav-link dropdown-toggle"
-								data-bs-toggle="dropdown"
-								><i class="far fa-file-alt me-2"></i>Genre</a
-							>
-							<div class="dropdown-menu bg-transparent border-0">
-								<a href="./action.html" class="dropdown-item"
-									>Action</a
-								>
-								<a href="adventure.html" class="dropdown-item"
-									>Adventure</a
-								>
-								<a href="comedy.html" class="dropdown-item"
-									>Comedy</a
-								>
-								<a href="romance.html" class="dropdown-item"
-									>Romance</a
-								>
-							</div>
-						</div>
 					</div>
 				</nav>
 			</div>
@@ -88,52 +56,19 @@
 			<div class="content">
 				<!-- Navbar Start -->
 				<nav
-					class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0"
+					class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-2"
 				>
 					<a
 						href="index.html"
 						class="navbar-brand d-flex d-lg-none me-4"
 					>
 						<h2 class="text-primary mb-0">
-							<i class="fa fa-user-edit"></i>
+							<i class="bi bi-exclamation-diamond"></i>
 						</h2>
 					</a>
 					<a href="#" class="sidebar-toggler flex-shrink-0">
-						<i class="fa fa-bars"></i>
+						<i class="bi bi-grid-3x3-gap-fill"></i>
 					</a>
-					<form class="d-none d-md-flex ms-4 align-items-center">
-						<input
-							class="form-control bg-dark border-0"
-							type="search"
-							placeholder="Search"
-						/>
-					</form>
-					<div class="navbar-nav align-items-center ms-auto">
-						<div class="nav-item dropdown">
-							<a
-								href="#"
-								class="nav-link dropdown-toggle"
-								data-bs-toggle="dropdown"
-							>
-								<img
-									class="rounded-circle me-lg-2"
-									src=""
-									alt=""
-									style="width: 40px; height: 40px"
-								/>
-								<span class="d-none d-lg-inline-flex"
-									>John Doe</span
-								>
-							</a>
-							<div
-								class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0"
-							>
-								<a href="#" class="dropdown-item">My Profile</a>
-								<a href="#" class="dropdown-item">Settings</a>
-								<a href="#" class="dropdown-item">Log Out</a>
-							</div>
-						</div>
-					</div>
 				</nav>
 				<!-- Navbar End -->
 
@@ -141,30 +76,11 @@
 				<div class="container-fluid pt-4 px-4">
 					<div class="row rounded align-items-top mx-0">
 						<!--Main Trending SlideShow Start-->
+						<div class="col-md-2"></div>
 						<div class="col-xl-8" id="top-slide">
 							<!--End Main Trending SlideShow-->
 						</div>
 						<!--End Col-md-8-->
-						<div class="col md 4">
-							<div class="row row-cols-1 g-4">
-								<div class="col">
-									<div class="card bg-secondary genres">
-										<div class="card-body">
-											This is some text within a card
-											body.
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card bg-secondary genres">
-										<div class="card-body">
-											This is some text within a card
-											body.
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 					<div class="row p-4">
 						<h2>Sedang Tayang</h2>
@@ -230,6 +146,5 @@
 				><i class="bi bi-arrow-up"></i
 			></a>
 		</div>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>

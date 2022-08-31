@@ -11,7 +11,6 @@ import './movie-item.js'
                 const movieItemElement = document.createElement('trending-item');
                 movieItemElement.classList.add('col');
                 
-                // memanggil fungsi setter article() pada article-item.
                 movieItemElement.movie = movie;
                 this.appendChild(movieItemElement);
             });

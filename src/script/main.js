@@ -1,6 +1,4 @@
 import { async } from "regenerator-runtime";
-import './article-list.js';
-import articles from './articles.js';
 import DataSource from "./data/data-source.js";
 import './movie-list.js';
 
@@ -127,16 +125,9 @@ function main() {
         getNowPlaying();
         getPopuler();
 
-        // const articleListElement = document.createElement('article-list');
-        // articleListElement.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-2', 'g-4');
-        // articleListElement.articles = articles;
-        // const container = document.querySelector('#TrendingMovies');
-        // container.append(articleListElement);
-
         DataSource();
         const trendingListElement = document.createElement('trending-list');
         trendingListElement.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-2', 'g-4');
-        // trendingListElement.movies = movies;
         const container2 = document.querySelector('#Trending_Movies');
         container2.append(trendingListElement);
     });
