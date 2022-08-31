@@ -13,7 +13,7 @@ function DataSource() {
                     responMessage(responseJson.message);
 
                 } else {
-                    renderTrending(responseJson.results);
+                    renderTrending(responseJson.results.slice(0, 10));
                 }
                 } catch (error) {
                     responMessage(error);

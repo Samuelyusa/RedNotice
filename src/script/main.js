@@ -16,7 +16,7 @@ function main() {
             if (responseJson.error) {
                 responMessage(responseJson.message);
             } else {
-                renderMovies(responseJson.results);
+                renderMovies(responseJson.results.slice(0, 10));
             }
             } catch (error) {
                 responMessage(error);
@@ -30,7 +30,7 @@ function main() {
             if (responseJson.error) {
                 responMessage(responseJson.message);
             } else {
-                populerMovies(responseJson.results);
+                populerMovies(responseJson.results.slice(0, 10));
             }
         } catch (error) {
             responMessage(error);
